@@ -174,7 +174,7 @@ ul {
   margin: auto;
   text-align: left;
   width: fit-content;
-  list-style: square inside url("/assets/simple/bulletPBY.png");
+  list-style: square inside url("https://goldentemps.neocities.org/assets/simple/bulletPBY.png");
 }
 
 h1 {
