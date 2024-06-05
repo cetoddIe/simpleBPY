@@ -1,0 +1,222 @@
+/* hi there! please credit me @ goldenfreddy.neocities.org if you copy any of the coding here! thanks :) */
+
+:root {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://goldentemps.neocities.org/assets/simple/simplePBY.png);
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 11pt;
+  color: #eb837c;
+  text-align: center;
+  box-shadow: inset 0px 0px 30px 20px rgba(255, 255, 255, 0.75);
+}
+
+.maincontain {
+  width: 88vw;
+  height: 95vh;
+  max-width: 1500px;
+  max-height: 1000px;
+  margin: auto;
+}
+
+.mainflex {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: row; 
+  flex-wrap: nowrap;
+  height: 100%;
+  width: auto;
+  gap: 12px;
+  word-break: break-word;
+}
+
+.flexone {
+  display: block;
+  height: 85%;
+  width: 15vw;
+  min-width: 100px;
+  left: 0;
+  color: #ed9b95;
+  background-color: rgba(255, 250, 227, 0.85);
+  overflow: hidden;
+  word-break: break-word;
+  border: dashed #ffd470 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.flextwo {
+  display: flex;
+  height: 95%;
+  width: 50vw;
+  min-width: 200px;
+  word-break: break-word;
+/* ══════ flex atts ══════ */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding: 10px;
+  gap: 5px;
+}
+
+.flexthree {
+  display: block;
+  height: 85%;
+  width: 15vw;
+  min-width: 100px;
+  right: 0;
+  color: #ed9b95;
+  background-color: rgba(255, 250, 227, 0.85);
+  overflow: hidden;
+  word-break: break-word;
+  border: dashed #ffd470 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* ══════════════════════════════════════════════════════ middle box divs ══════════════════════════════════════════════════════ */
+
+.header {
+  display: block;
+  top: 0;
+  height: 15%;
+  min-height: 100px;
+  width: 100%;
+  background-color: rgba(255, 254, 237, 0.9);
+  overflow: hidden;
+  word-break: break-word;
+  border: solid black 2px;
+  border: dashed #ffd470 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.mainer {
+  display: block;
+  height: 64.5%;
+  min-height: 200px;
+  width: 100%;
+  background-color: rgba(255, 254, 237, 0.9);
+  overflow: auto;
+  word-break: break-word;
+  border: solid black 2px;
+  border: dashed #ffd470 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.footer {
+  display: block;
+  bottom: 0;
+  height: 15%;
+  min-height: 100px;
+  width: 100%;
+  background-color: rgba(255, 254, 237, 0.9);
+  overflow: hidden;
+  word-break: break-word;
+  border: dashed #ffd470 2px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* ══════════════════════════════════════════════════════ text styling ══════════════════════════════════════════════════════  */
+
+::selection {
+  background: RGBA(255, 209, 110, 0.3);
+}
+
+u {
+  text-decoration: #ffba96 dashed underline;
+}
+
+a:link {
+  color: #ffb0c7;
+  font-weight: bold;
+  text-decoration: #ffba96 dashed underline;
+}
+
+a:visited {
+  color: #ffb0c7;
+  font-weight: bold;
+  text-decoration: #ffba96 dashed underline;
+}
+
+a:hover {
+  color: #a3d4ff;
+  font-weight: bold;
+  text-decoration: #badfff dashed underline;
+}
+
+button {
+  color: white;
+  background-color: #a3d4ff;
+  border: dashed #cfe8ff 2px;
+  border-radius: 5px;
+}
+
+button:hover {
+  color: white;
+  background-color: #ffb0c7;
+  border: dashed #ffdbe4 2px;
+  border-radius: 5px;
+}
+
+button:active {
+  color: #75b1ff;
+  background-color: #cfe8ff;
+  border: dashed #a3d4ff 2px;
+  border-radius: 5px;
+}
+
+ul {
+  margin: auto;
+  text-align: left;
+  width: fit-content;
+  list-style: square inside url("/assets/simple/bulletPBY.png");
+}
+
+h1 {
+ color: #ffaca6; 
+}
+
+h2 {
+ color: #ff9b94; 
+}
+
+/* ══════════════════════════════════════════════════════ custom scrollbar ══════════════════════════════════════════════════════  */
+
+*::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+  border-radius: 5px;
+  background-color: RGBA(255, 166, 120, 0.3);
+  border-left: 2px dashed #ffd470;
+}
+
+*::-webkit-scrollbar-track:hover {
+  background-color: RGBA(255, 166, 120, 0.3);
+}
+
+*::-webkit-scrollbar-track:active {
+  background-color: RGBA(255, 166, 120, 0.3);
+}
+
+*::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: RGBA(255, 255, 255, 0.9);
+  border: 2px dashed #ffd470;
+  border-right: none;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background-color: white;
+}
+
+*::-webkit-scrollbar-thumb:active {
+  background-color: white;
+}
